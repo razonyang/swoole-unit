@@ -1,0 +1,38 @@
+{
+    "name": "razonyang/swoole-unit",
+    "description": "PSR-7 implementation for Swoole",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RazonYang\\Swoole\\Unit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RazonYang\\Swoole\\Unit\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "razonyang",
+            "email": "razonyang@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0",
+        "ext-swoole": "^4.8|^5.0",
+        "nyholm/psr7": "^1.5"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "^5.0",
+        "phpunit/phpunit": "^9.5",
+        "razonyang/unit-helper": "^1.0"
+    },
+    "scripts": {
+        "lint": "php-cs-fixer fix --config .php-cs-fixer.php src tests",
+        "test": "phpunit"
+    }
+}
