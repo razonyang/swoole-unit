@@ -2,13 +2,13 @@
 
 [![Latest Stable Version](https://poser.pugx.org/razonyang/swoole-unit/v/stable.png)](https://packagist.org/packages/razonyang/swoole-unit)
 [![Total Downloads](https://poser.pugx.org/razonyang/swoole-unit/downloads.png)](https://packagist.org/packages/razonyang/swoole-unit)
-[![Build Status](https://github.com/razonyang/swoole-unit/workflows/build/badge.svg)](https://github.com/razonyang/swoole-unit/actions)
+[![Build Status](https://github.com/razonyang/swoole-unit/actions/workflows/build.yml/badge.svg)](https://github.com/razonyang/swoole-unit/actions)
 [![Coverage Status](https://coveralls.io/repos/github/razonyang/swoole-unit/badge.svg?branch=main)](https://coveralls.io/github/razonyang/swoole-unit?branch=main)
 
 ## Installation
 
 ```bash
-composer require razonyang/swoole-unit --prefer-dist
+composer require razonyang/swoole-unit --prefer-dist --dev
 ```
 
 ## Helpers
