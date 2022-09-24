@@ -4,6 +4,7 @@
 [![Total Downloads](https://poser.pugx.org/razonyang/swoole-unit/downloads.png)](https://packagist.org/packages/razonyang/swoole-unit)
 [![Build Status](https://github.com/razonyang/swoole-unit/actions/workflows/build.yml/badge.svg)](https://github.com/razonyang/swoole-unit/actions)
 [![Coverage Status](https://coveralls.io/repos/github/razonyang/swoole-unit/badge.svg?branch=main)](https://coveralls.io/github/razonyang/swoole-unit?branch=main)
+[![StyleCI](https://github.styleci.io/repos/537780358/shield?branch=main)](https://github.styleci.io/repos/537780358?branch=main)
 
 ## Installation
 
