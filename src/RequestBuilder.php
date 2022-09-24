@@ -182,7 +182,7 @@ final class RequestBuilder
         );
 
         foreach ($this->headers as $name => $values) {
-            $message .= sprintf("%s: %s\r\n", $name, implode(", ", $values));
+            $message .= sprintf("%s: %s\r\n", $name, implode(', ', $values));
         }
 
         $message .= "\r\n";
@@ -196,21 +196,21 @@ final class RequestBuilder
 
     public static function get(string $uri): self
     {
-        return new RequestBuilder('GET', $uri);
+        return new self('GET', $uri);
     }
 
     public static function post(string $uri): self
     {
-        return new RequestBuilder('POST', $uri);
+        return new self('POST', $uri);
     }
 
     public static function put(string $uri): self
     {
-        return new RequestBuilder('PUT', $uri);
+        return new self('PUT', $uri);
     }
 
     public static function delete(string $uri): self
     {
-        return new RequestBuilder('DELETE', $uri);
+        return new self('DELETE', $uri);
     }
 }

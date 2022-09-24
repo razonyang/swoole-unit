@@ -49,7 +49,7 @@ class RequestBuilderTest extends TestCase
     public function testHeaders(): void
     {
         $headers = [
-            'Host' => ['localhost'],
+            'Host'         => ['localhost'],
             'Content-Type' => ['text/html'],
         ];
 
@@ -207,13 +207,13 @@ class RequestBuilderTest extends TestCase
             [
                 [
                     'name' => 'foo',
-                    'age' => '18',
+                    'age'  => '18',
                 ],
             ],
             [
                 [
                     'name' => 'bar',
-                    'age' => '28',
+                    'age'  => '28',
                 ],
             ],
         ];
@@ -259,23 +259,23 @@ class RequestBuilderTest extends TestCase
     {
         return [
             [
-              [
-                'name' => 'fizz',
-                'age' => '38',
-              ],
-              [
-                'avatar' => __FILE__,
-              ],
+                [
+                    'name' => 'fizz',
+                    'age'  => '38',
+                ],
+                [
+                    'avatar' => __FILE__,
+                ],
             ],
             [
-              [
-                'name' => 'fizz',
-                'age' => '38',
-              ],
-              [
-                'avatar' => __FILE__,
-                'readme' => dirname(__DIR__).\DIRECTORY_SEPARATOR.'README.md',
-              ],
+                [
+                    'name' => 'fizz',
+                    'age'  => '38',
+                ],
+                [
+                    'avatar' => __FILE__,
+                    'readme' => dirname(__DIR__).\DIRECTORY_SEPARATOR.'README.md',
+                ],
             ],
         ];
     }
